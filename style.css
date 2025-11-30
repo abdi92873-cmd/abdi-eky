@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+    background: #ffeef8;
+}
+
+.dark {
+    background: #111;
+    color: white;
+}
+
+.cute {
+    background: #ffe6f2;
+    color: #ff5fa2;
+}
+
+.aesthetic {
+    background: #1c1c1e;
+    color: #dcdcdc;
+}
+
+.card {
+    width: 80%;
+    max-width: 350px;
+    margin: 90px auto;
+    padding: 25px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 0 20px rgb(255 100 150 / 40%);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 7px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #ff6fb0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.small {
+    padding: 5px 12px;
+    font-size: 12px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 15px;
+}
+
+.photo-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff99c970;
+}
+
+.photo-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
